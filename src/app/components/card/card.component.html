@@ -1,0 +1,11 @@
+<div>
+  @for (produto of produtos.promocoes; track produto) {
+    <div class="card">
+      <h3>{{ produto.nome }}</h3>
+      <p>R${{ produto.preco }}</p>
+      <p>Qunatidade: {{ produto.quantidade }}</p>
+    </div>
+    } @empty {
+    <li>There are no items.</li>
+    }
+  </div>

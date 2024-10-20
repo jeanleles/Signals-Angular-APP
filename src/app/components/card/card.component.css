@@ -1,0 +1,22 @@
+.card {
+  border: 1px solid #91cef7;
+  padding: 8px 16px;
+  margin-bottom: 15px;
+  background-color: #f5ebd7;
+  border-radius: 8px;
+  width: 340px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #333;
+  margin: 0;
+}
